@@ -12,9 +12,9 @@
 
 2. Anaconda:
 
-* Use Project ( `ug201`) Anaconda Installation
+* Use Project ( `pn69si`) Anaconda Installation
 
-    * Path `/home/hpc/ug201/di57hah/project/anaconda2` 
+    * Path `/home/hpc/pn69si/mnmda001/software/anaconda3` 
 
 
 3. Jupyter Page for Notebooks:
