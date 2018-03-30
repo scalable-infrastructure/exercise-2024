@@ -23,13 +23,13 @@
     * https://data-analytics.dyndns.lrz.de:1002/lab?
     
     * Note: We use a self signed certificate for this page. Please, verify fingerprint and allow browswer exception
-    * [fingerprint.png](fingerprint.png)
+    * ![fingerprint.png](fingerprint.png)
     
 
 4. Spark
 
     * Spark Web UI: <http://data-analytics.dyndns.lrz.de:8181/>
-    * [spark_master.png](spark_master.png)
+    * ![spark_master.png](spark_master.png)
     * The nodes for the assign can change. Please use Web UI to get current MASTER URL!
 
 5. Howto Slurm:
