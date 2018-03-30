@@ -19,7 +19,13 @@
 
 3. Jupyter Page for Notebooks:
 
-
+    * https://data-analytics.dyndns.lrz.de:1001/lab?
+    * https://data-analytics.dyndns.lrz.de:1002/lab?
+    
+    * Note: We use a self signed certificate for this page. Please, verify fingerprint and allow browswer exception
+    * [](fingerprint.png)
+    
+Spark
 
 4. Howto Slurm:
 
