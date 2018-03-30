@@ -12,38 +12,39 @@
 
 2. Anaconda:
 
-    * Use Project ( `pn69si`) Anaconda Installation
+* Use Project ( `pn69si`) Anaconda Installation
 
-    * Path `/home/hpc/pn69si/mnmda001/software/anaconda3` 
+* Path `/home/hpc/pn69si/mnmda001/software/anaconda3` 
 
 
 3. Jupyter Page for Notebooks:
 
-    * https://data-analytics.dyndns.lrz.de:1001/lab?
-    * https://data-analytics.dyndns.lrz.de:1002/lab?
-    
-    * Note: We use a self signed certificate for this page. Please, verify fingerprint and allow browswer exception
+* https://data-analytics.dyndns.lrz.de:1001/lab?
+* https://data-analytics.dyndns.lrz.de:1002/lab?
+
+* Note: We use a self signed certificate for this page. Please, verify fingerprint and allow browswer exception
     
 ![fingerprint.png](fingerprint.png)
     
 
 4. Spark
 
-    * Spark Web UI: <http://data-analytics.dyndns.lrz.de:8181/>
+* Spark Web UI: <http://data-analytics.dyndns.lrz.de:8181/>
     
 ![spark_master.png](spark_master.png)
-   * The nodes and hostnames assigned to the Spark Cluster can change. Please use Web UI to get current MASTER URL for your job submission! 
+
+* The nodes and hostnames assigned to the Spark Cluster can change. Please use Web UI to get current MASTER URL for your job submission! 
 
 5. Howto Slurm:
 
-    * Show clusters
+* Show clusters
 
-             sacctmgr list clusters
+         sacctmgr list clusters
 
-    * Show Info for 1 Cluster
+* Show Info for 1 Cluster
 
-            sinfo --clusters=mpp3
+        sinfo --clusters=mpp3
 
-    * Show Info for default cluster
+* Show Info for default cluster
             
             sinfo
