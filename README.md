@@ -12,7 +12,7 @@
 
 2. Anaconda:
 
-* Use Project ( `pn69si`) Anaconda Installation
+    * Use Project ( `pn69si`) Anaconda Installation
 
     * Path `/home/hpc/pn69si/mnmda001/software/anaconda3` 
 
@@ -30,7 +30,7 @@
 
     * Spark Web UI: <http://data-analytics.dyndns.lrz.de:8181/>
     * ![spark_master.png](spark_master.png)
-    * The nodes for the assign can change. Please use Web UI to get current MASTER URL!
+    * The nodes and hostnames assigned to the Spark Cluster can change. Please use Web UI to get current MASTER URL for your job submission! 
 
 5. Howto Slurm:
 
