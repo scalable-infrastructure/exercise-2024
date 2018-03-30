@@ -16,6 +16,8 @@
 
 * Path `/home/hpc/pn69si/mnmda001/software/anaconda3` 
 
+	source /home/hpc/pn69si/mnmda001/software/anaconda3/bin/activate root
+
 
 3. Jupyter Page for Notebooks:
 
