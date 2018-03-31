@@ -14,29 +14,47 @@
 
 * Use Project ( `pn69si`) Anaconda Installation
 
-    * Path `/home/hpc/pn69si/mnmda001/software/anaconda3` 
+* Path `/home/hpc/pn69si/mnmda001/software/anaconda3` 
+
+		source /home/hpc/pn69si/mnmda001/software/anaconda3/bin/activate root
 
 
 3. Jupyter Page for Notebooks:
 
+* Recommended way to access Jupyter Notebooks is via SSH portforward:
+    
+        ssh -fND 4223 lxlogin8.lrz.de
+        
+    * Set SSH Proxy
+
+* Alternatively, the Jupyter Notebooks can be accessed:
     * https://data-analytics.dyndns.lrz.de:1001/lab?
     * https://data-analytics.dyndns.lrz.de:1002/lab?
+    * Note: We use a self signed certificate for this page. Please, verify fingerprint and allow browser exception!
+
+
     
-    * Note: We use a self signed certificate for this page. Please, verify fingerprint and allow browswer exception
-    * [](fingerprint.png)
+![fingerprint.png](fingerprint.png)
     
-Spark
 
-4. Howto Slurm:
+4. Spark
 
-    * Show clusters
+* Spark Web UI: <http://data-analytics.dyndns.lrz.de:8181/>
+    
+![spark_master.png](spark_master.png)
 
-             sacctmgr list clusters
+* The nodes and hostnames assigned to the Spark Cluster can change. Please use Web UI to get current MASTER URL for your job submission! 
 
-    * Show Info for 1 Cluster
+5. Howto Slurm:
 
-            sinfo --clusters=mpp3
+* Show clusters
 
-    * Show Info for default cluster
+         sacctmgr list clusters
+
+* Show Info for 1 Cluster
+
+        sinfo --clusters=mpp3
+
+* Show Info for default cluster
             
             sinfo
