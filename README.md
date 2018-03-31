@@ -25,7 +25,9 @@
     
         ssh -fND 4223 lxlogin8.lrz.de
         
-    * Set SSH Proxy
+    * Set SSH Proxy in your Browser Configuration!
+    
+    ![spark_master.png](spark_master.png)
 
 * Alternatively, the Jupyter Notebooks can be accessed:
     * https://data-analytics.dyndns.lrz.de:1001/lab?
