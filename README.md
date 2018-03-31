@@ -19,10 +19,18 @@
 
 3. Jupyter Page for Notebooks:
 
-* https://data-analytics.dyndns.lrz.de:1001/lab?
-* https://data-analytics.dyndns.lrz.de:1002/lab?
+* Recommended way to access Jupyter Notebooks is via SSH portforward:
+    
+        ssh -fND 4223 lxlogin8.lrz.de
+        
+    * Set SSH Proxy
 
-* Note: We use a self signed certificate for this page. Please, verify fingerprint and allow browswer exception
+* Alternatively, the Jupyter Notebooks can be accessed:
+    * https://data-analytics.dyndns.lrz.de:1001/lab?
+    * https://data-analytics.dyndns.lrz.de:1002/lab?
+    * Note: We use a self signed certificate for this page. Please, verify fingerprint and allow browser exception!
+
+
     
 ![fingerprint.png](fingerprint.png)
     
