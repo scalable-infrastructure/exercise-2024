@@ -59,4 +59,4 @@
 
 * Show Info for default cluster
             
-            sinfo
+        sinfo
