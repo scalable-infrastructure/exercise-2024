@@ -14,9 +14,9 @@
 
 * Use Project ( `pn69si`) Anaconda Installation
 
-* Path `/home/hpc/pn69si/mnmda001/software/anaconda3` 
+* Path `/naslx/projects/pn69si/mnmda001/students/software/anaconda3` 
 
-		source /home/hpc/pn69si/mnmda001/software/anaconda3/bin/activate root
+		source /naslx/projects/pn69si/mnmda001/students/software/anaconda3/bin/activate root
 
 
 3. Jupyter Page for Notebooks:
@@ -24,6 +24,7 @@
 * Recommended way to access Jupyter Notebooks is via SSH portforward:
     
         ssh -fND 4223 lxlogin8.lrz.de
+	ssh -fND 4223 lxlogin10.lrz.de
         
     * Set SSH Proxy in your Browser Configuration!
     
