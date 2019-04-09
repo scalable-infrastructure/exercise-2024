@@ -14,8 +14,7 @@
 
 * Fallback is to access Jupyter Notebooks is via SSH portforward:
     
-        ssh -fND 4223 lxlogin8.lrz.de
-	ssh -fND 4223 lxlogin10.lrz.de
+        ssh -fND 4223 lxlogin10.lrz.de
        
 * Set SSH Proxy in your Browser Configuration!
     
