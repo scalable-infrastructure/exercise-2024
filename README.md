@@ -1,6 +1,6 @@
 # Exercise SS 2019
 
-1. Jupyter Page for Notebooks:
+## Jupyter Notebooks:
 
 * Only use the Jupyter Instance assigned to you/your team!
 
