@@ -1,6 +1,29 @@
 # Exercise SS 2019
 
-1. Needed modules:
+1. Jupyter Page for Notebooks:
+
+* Only use the Jupyter Instance assigned to you/your team!
+
+* Naming convention: `https://data-analytics.dyndns.lrz.de:17[id]/lab?`
+    
+* Note: We use a self signed certificate for this page. Please, verify fingerprint and allow browser exception!
+
+![fingerprint.png](fingerprint.png)
+    
+
+
+* Fallback is to access Jupyter Notebooks is via SSH portforward:
+    
+        ssh -fND 4223 lxlogin8.lrz.de
+	ssh -fND 4223 lxlogin10.lrz.de
+       
+* Set SSH Proxy in your Browser Configuration!
+    
+    ![socks_firefox.png](socks_firefox.png)
+
+# Other Information
+
+## Needed modules:
 	
 		module load git
 		module load gcc/7
@@ -10,44 +33,14 @@
 * Use project directory as home is too small
 
 
-2. Anaconda:
+## Anaconda:
 
 * Use Project ( `pn69si`) Anaconda Installation
 
 * Path `/naslx/projects/pn69si/mnmda001/students/software/anaconda3` 
 
 		source /naslx/projects/pn69si/mnmda001/students/software/anaconda3/bin/activate root
-
-
-3. Jupyter Page for Notebooks:
-
-* Recommended way to access Jupyter Notebooks is via SSH portforward:
-    
-        ssh -fND 4223 lxlogin8.lrz.de
-	ssh -fND 4223 lxlogin10.lrz.de
-        
-    * Set SSH Proxy in your Browser Configuration!
-    
-    ![socks_firefox.png](socks_firefox.png)
-
-* Alternatively, the Jupyter Notebooks can be accessed:
-    * https://data-analytics.dyndns.lrz.de:173x/lab?
-    * Note: We use a self signed certificate for this page. Please, verify fingerprint and allow browser exception!
-
-
-    
-![fingerprint.png](fingerprint.png)
-    
-
-4. Spark
-
-* Spark Web UI: <http://data-analytics.dyndns.lrz.de:8181/>
-    
-![spark_master.png](spark_master.png)
-
-* The nodes and hostnames assigned to the Spark Cluster can change. Please use Web UI to get current MASTER URL for your job submission! 
-
-5. Howto Slurm:
+## Howto Slurm:
 
 * Show clusters
 
