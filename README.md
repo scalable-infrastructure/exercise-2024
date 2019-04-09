@@ -1,4 +1,4 @@
-# Exercise-2018
+# Exercise SS 2019
 
 1. Needed modules:
 	
@@ -31,8 +31,7 @@
     ![socks_firefox.png](socks_firefox.png)
 
 * Alternatively, the Jupyter Notebooks can be accessed:
-    * https://data-analytics.dyndns.lrz.de:1001/lab?
-    * https://data-analytics.dyndns.lrz.de:1002/lab?
+    * https://data-analytics.dyndns.lrz.de:173x/lab?
     * Note: We use a self signed certificate for this page. Please, verify fingerprint and allow browser exception!
 
 
