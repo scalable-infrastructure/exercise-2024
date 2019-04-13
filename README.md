@@ -4,7 +4,7 @@
 
 * Only use the Jupyter Instance assigned to you/your team!
 
-* Naming convention: `https://data-analytics.dyndns.lrz.de:17[id]/lab?`
+* Naming convention: `https://data-analytics.dyndns.lrz.de:[id]/lab?`
     
 * Note: We use a self signed certificate for this page. Please, verify fingerprint and allow browser exception!
 
