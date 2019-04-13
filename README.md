@@ -10,6 +10,8 @@
 
 * Should you prefer the execute the exercises on your local machine, we recommend the [Anaconda Python Distribution](https://www.anaconda.com/distribution/#download-section). A list of packages required is [here](conda-packages.txt).
 
+	conda install -c conda-forge pyspark scikit-learn
+
 * Fallback is to access Jupyter Notebooks is via SSH portforward - You need to have a LRZ Linux Cluster account in order to use this option:
     
         ssh -fND 4223 lxlogin10.lrz.de
