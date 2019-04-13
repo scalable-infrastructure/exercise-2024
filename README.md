@@ -8,11 +8,7 @@
     
 * Note: We use a self signed certificate for this page. Please, verify fingerprint and allow browser exception!
 
-![fingerprint.png](fingerprint.png)
-    
-
-
-* Fallback is to access Jupyter Notebooks is via SSH portforward:
+* Fallback is to access Jupyter Notebooks is via SSH portforward - You need to have a LRZ Linux Cluster account in order to use this option:
     
         ssh -fND 4223 lxlogin10.lrz.de
        
