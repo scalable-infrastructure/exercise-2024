@@ -8,7 +8,7 @@
     
 * Note: We use a self signed certificate for this page. Please, verify fingerprint and allow browser exception!
 
-* Should you prefer the execute the exercises on your local machine, we recommend the [Anaconda Python Distribution](https://www.anaconda.com/distribution/#download-section).
+* Should you prefer the execute the exercises on your local machine, we recommend the [Anaconda Python Distribution](https://www.anaconda.com/distribution/#download-section). A list of packages required is [here](conda-packages.txt).
 
 * Fallback is to access Jupyter Notebooks is via SSH portforward - You need to have a LRZ Linux Cluster account in order to use this option:
     
