@@ -11,7 +11,7 @@
 * Should you prefer the execute the exercises on your local machine, we recommend the [Anaconda Python Distribution](https://www.anaconda.com/distribution/#download-section). A list of packages required is [here](conda-packages.txt).
 
         conda install -c conda-forge pyspark scikit-learn tensorflow
-	conda install torchvision -c pytorch
+        conda install torchvision -c pytorch
 
 * Fallback is to access Jupyter Notebooks is via SSH portforward - You need to have a LRZ Linux Cluster account in order to use this option:
     
@@ -48,7 +48,7 @@
 
 * Show Info for 1 Cluster
 
-        sinfo --clusters=mpp3
+        sinfo --clusters=ivymuc
 
 * Show Info for default cluster
             
