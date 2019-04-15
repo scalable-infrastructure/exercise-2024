@@ -31,7 +31,7 @@ try:
 except ImportError:
     import json
 
-import __builtin__
+import builtins
 
 def map(line):
     pass
