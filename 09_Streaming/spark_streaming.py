@@ -1,7 +1,7 @@
 #!/bin/python
 #
 # without Kafka
-#/naslx/projects/ug201/di57hah/students/software/spark-2.3.0-bin-hadoop2.7/bin/spark-submit spark_streaming.py 
+#/naslx/projects/pn69si/mnmda001/students/software/spark-2.4.1-bin-hadoop2.7/bin/spark-submit spark_streaming.py 
 
 
 
@@ -39,7 +39,7 @@ STREAMING_WINDOW=60
 SPARK_MASTER="local[1]"
 #SPARK_MASTER="spark://mpp3r03c04s06.cos.lrz.de:7077"
 APP_NAME = "PySpark Lecture"
-os.environ["PYSPARK_PYTHON"] = "/naslx/projects/pn69si/mnmda001/software/anaconda3/bin/python"
+os.environ["PYSPARK_PYTHON"] = "/naslx/projects/pn69si/mnmda001/students/software/anaconda3/bin/python"
 
 # If there is no SparkSession, create the environment
 try:
