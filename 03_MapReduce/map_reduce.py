@@ -1,4 +1,4 @@
-#!/usr/bin/python
+#!/usr/bin/python3
 #
 # Licensed to Cloudera, Inc. under one
 # or more contributor license agreements.  See the NOTICE file

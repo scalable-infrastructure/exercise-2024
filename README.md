@@ -13,43 +13,14 @@
         conda install -c conda-forge pyspark scikit-learn tensorflow
         conda install torchvision -c pytorch
 
-* Fallback is to access Jupyter Notebooks is via SSH portforward - You need to have a LRZ Linux Cluster account in order to use this option:
-    
-        ssh -fND 4223 lxlogin10.lrz.de
-       
-* Set SSH Proxy in your Browser Configuration!
-    
-    ![socks_firefox.png](socks_firefox.png)
-
 # Other Information
 
-## Needed modules:
-	
-		module load git
-		module load gcc/7
-		module load java/1.8
-		export TMPDIR=/tmp/$USER
 
-* Use project directory as home is too small
+## Hadoop
 
+* Path `/opt/hadoop-2.8.5` 
 
 ## Anaconda:
 
-* Use Project ( `pn69si`) Anaconda Installation
+* Path `/opt/tljh/user/bin/conda` 
 
-* Path `/naslx/projects/pn69si/mnmda001/students/software/anaconda3` 
-
-		source /naslx/projects/pn69si/mnmda001/students/software/anaconda3/bin/activate root
-## Howto Slurm:
-
-* Show clusters
-
-         sacctmgr list clusters
-
-* Show Info for 1 Cluster
-
-        sinfo --clusters=ivymuc
-
-* Show Info for default cluster
-            
-        sinfo
