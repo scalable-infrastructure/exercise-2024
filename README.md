@@ -8,6 +8,8 @@
     
 * Note: We use a self signed certificate for this page. Please, verify fingerprint and allow browser exception!
 
+* Path to Anaconda distribution of Jupyter environment: `/opt/tljh/user/bin/conda` 
+
 * Should you prefer the execute the exercises on your local machine, we recommend the [Anaconda Python Distribution](https://www.anaconda.com/distribution/#download-section). A list of packages required is [here](conda-packages.txt).
 
         conda install -c conda-forge pyspark scikit-learn tensorflow 
@@ -16,14 +18,14 @@
         
         pip install git+https://github.com/facebookresearch/fastText.git # Git Version required
 
-# Other Information
-
 
 ## Hadoop
 
 * Path `/opt/hadoop-2.8.5` 
 
-## Anaconda:
+## PySpark 
 
-* Path `/opt/tljh/user/bin/conda` 
+* Installed via Anaconda
+
+
 
