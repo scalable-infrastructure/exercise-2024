@@ -12,10 +12,12 @@
 
 * Should you prefer the execute the exercises on your local machine, we recommend the [Anaconda Python Distribution](https://www.anaconda.com/distribution/#download-section). A list of packages required is [here](conda-packages.txt).
 
+        # Anaconda Packages
         conda install -c conda-forge pyspark scikit-learn tensorflow 
         conda install torchvision pytorch -c pytorch
-        
-        
+
+        # Packages only available via PyPi
+        pip install transformers
         pip install git+https://github.com/facebookresearch/fastText.git # Git Version required
 
 
