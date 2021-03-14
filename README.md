@@ -4,7 +4,9 @@
 
 You can either use your own laptop or the LRZ cloud for doing the exercises. Software required is Hadoop and Anaconda (incl. several different packages). You are responsible to setup your software environment.
 
-* Google Colab: <https://colab.research.google.com/>
+* Google Colab: <https://colab.research.google.com/>:
+
+        * Open this repository in Colab: <https://colab.research.google.com/github/scalable-infrastructure/exercise-students-2021/>       
 
 * LRZ Cloud: <https://www.lrz.de/services/compute/cloud_en/>
 
