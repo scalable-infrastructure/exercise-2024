@@ -10,10 +10,6 @@ You can either use your own laptop or the LRZ cloud for doing the exercises. Sof
 
 * You will need to install the following software:
 
-        # Hadoop
-        wget https://mirrors.ae-online.de/apache/hadoop/common/hadoop-2.10.1/hadoop-2.10.1.tar.gz
-        tar -xzvf hadoop-2.10.1.tar.gz
-
         # Anaconda Packages
         conda install -c conda-forge pyspark scikit-learn tensorflow 
         conda install torchvision pytorch -c pytorch
