@@ -4,6 +4,8 @@
 
 You can either use your own laptop or the LRZ cloud for doing the exercises. Software required is Hadoop and Anaconda (incl. several different packages). You are responsible to setup your software environment.
 
+* Google Colab: <https://colab.research.google.com/>
+
 * LRZ Cloud: <https://www.lrz.de/services/compute/cloud_en/>
 
 * Should you prefer the execute the exercises on your local machine, we recommend the [Anaconda Python Distribution](https://www.anaconda.com/distribution/#download-section). A list of packages required is [here](conda-packages.txt).
