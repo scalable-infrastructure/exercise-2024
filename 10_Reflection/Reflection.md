@@ -2,9 +2,9 @@
 
 The objective of this activity is to review different strategic whitepaper and reflect on current challenges related to machine learning and AI.
 
-* AI Strategy Germany: https://www.ki-strategie-deutschland.de/home.html
+* AI Strategy Germany: <https://www.ki-strategie-deutschland.de/home.html>
 * Data Strategy Germany <https://www.bundesregierung.de/breg-en/service/information-material-issued-by-the-federal-government/shaping-digitalization-1605330>
-* https://www.nscai.gov/
+* US Perspective: <https://www.nscai.gov/>
 
 
 Potential questions:
