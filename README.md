@@ -1,11 +1,11 @@
-# Exercise SS 2023
+# Exercise SS 2024
 
 ## Software Environment:
 
 You can either use your own laptop or the LRZ cloud for doing the exercises. Software required is Hadoop and Anaconda (incl. several different packages). You are responsible to setup your software environment.
 
 * Google Colab: <https://colab.research.google.com/>:
-    * Open this repository in Colab: <https://colab.research.google.com/github/scalable-infrastructure/exercise-2023/>       
+    * Open this repository in Colab: <https://colab.research.google.com/github/scalable-infrastructure/exercise-2024/>       
 
 * LRZ Cloud: <https://www.lrz.de/services/compute/cloud_en/>
 
